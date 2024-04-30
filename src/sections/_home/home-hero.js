@@ -108,7 +108,8 @@ export default function HomeHero() {
               Simplify your business automation with the clarity of plain English.
             </Typography>
             <Grid container alignItems="center" justifyContent="center" sx={{ height: 1 }}>
-              <ReactPlayer url="https://www.youtube.com/watch?v=BD4sofjqj8s" />
+              <ReactPlayer url="https://youtu.be/BlAxvjm6aWA"/>
+              {/* <ReactPlayer url="https://www.youtube.com/watch?v=BD4sofjqj8s" /> */}
             </Grid>
 {/*
             <Box
