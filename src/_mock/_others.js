@@ -43,15 +43,15 @@ export const _socials = [
     label: 'Linkedin',
     icon: 'carbon:logo-linkedin',
     color: '#007EBB',
-    link: 'https://www.linkedin.com/in/leo-kan-1a1b1b1b1/',
-  },
-  {
-    value: 'twitter',
-    label: 'Twitter',
-    icon: 'carbon:logo-twitter',
-    color: '#00AAEC',
-    link: 'https://twitter.com/leokan',
-  },
+    link: 'https://www.linkedin.com/company/wofoai/',
+  }
+  // {
+  //   value: 'twitter',
+  //   label: 'Twitter',
+  //   icon: 'carbon:logo-twitter',
+  //   color: '#00AAEC',
+  //   link: 'https://twitter.com/leokan',
+  // },
 ];
 
 // ----------------------------------------------------------------------
