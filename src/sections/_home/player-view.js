@@ -67,7 +67,7 @@ export default function PlayerView() {
           mb: { xs: 8, md: 10 },
         }}
       >
-        Uses same tools as your team
+        Use same tools as your team
         {/* Effortless Collaboration, Real Results */}
         {/* Discover the simplicity of working with AI agents — like connecting with a remote colleague. <br /> */}
         {/* Explore our demo video to see the future of teamwork. */}
