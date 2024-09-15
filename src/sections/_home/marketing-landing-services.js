@@ -98,7 +98,7 @@ export default function MarketingLandingServices() {
 // ----------------------------------------------------------------------
 
 function ServiceItem({ service, index }) {
-  const { name, icon, content, path } = service;
+  const { name, icon, content } = service;
 
   return (
     <Card

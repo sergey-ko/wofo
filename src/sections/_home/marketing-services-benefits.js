@@ -6,7 +6,6 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 import Image from 'src/components/image';
-import Iconify from 'src/components/iconify';
 import { useResponsive } from 'src/hooks/use-responsive';
 
 // ----------------------------------------------------------------------

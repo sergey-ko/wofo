@@ -1,38 +1,15 @@
 import PropTypes from 'prop-types';
 
-import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
-import { useTheme } from '@mui/material/styles';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 
 import Image from 'src/components/image';
-import Carousel, { useCarousel } from 'src/components/carousel';
 
 // ----------------------------------------------------------------------
 
 export default function CareerOurClients({ brands }) {
-  const theme = useTheme();
 
-  const carousel = useCarousel({
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 5000,
-    autoplaySpeed: 5000,
-    cssEase: 'linear',
-    responsive: [
-      {
-        breakpoint: theme.breakpoints.values.md,
-        settings: { slidesToShow: 4 },
-      },
-      {
-        breakpoint: theme.breakpoints.values.sm,
-        settings: { slidesToShow: 2 },
-      },
-    ],
-  });
 
   return (
     <Container

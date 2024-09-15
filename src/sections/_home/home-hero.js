@@ -2,9 +2,6 @@ import PropTypes from 'prop-types';
 import ReactPlayer from 'react-player/lazy';
 
 import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import Avatar from '@mui/material/Avatar';
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Unstable_Grid2';
 import Container from '@mui/material/Container';
@@ -15,7 +12,6 @@ import { alpha, styled, useTheme } from '@mui/material/styles';
 
 import { bgGradient } from 'src/theme/css';
 import { HEADER } from 'src/layouts/config-layout';
-import { useResponsive } from 'src/hooks/use-responsive';
 
 // ----------------------------------------------------------------------
 

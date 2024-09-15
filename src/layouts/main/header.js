@@ -1,34 +1,21 @@
 import PropTypes from 'prop-types';
 
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import { useTheme } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 
 import { _socials } from 'src/_mock';
 import { bgBlur } from 'src/theme/css';
 import Logo from 'src/components/logo';
-import { paths } from 'src/routes/paths';
-import Label from 'src/components/label';
 import Iconify from 'src/components/iconify';
-import { useResponsive } from 'src/hooks/use-responsive';
 import { useOffSetTop } from 'src/hooks/use-off-set-top';
 
 import { HEADER } from '../config-layout';
-// import Searchbar from '../common/searchbar';
-// import HeaderShadow from '../common/header-shadow';
-// import SettingsButton from '../common/settings-button';
 
-import NavMobile from './nav/mobile';
-import NavDesktop from './nav/desktop';
-
-// import { navConfig } from './config-navigation';
 
 // ----------------------------------------------------------------------
 
@@ -36,8 +23,6 @@ export default function Header({ headerOnDark }) {
   const theme = useTheme();
 
   const offset = useOffSetTop();
-
-  const mdUp = useResponsive('up', 'md');
 
   return (
     <AppBar>

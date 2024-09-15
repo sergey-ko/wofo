@@ -1,18 +1,12 @@
 // 'use client';
 
 import Image from 'next/image';
-import ReactPlayer from 'react-player/lazy'
 
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import { _mock } from 'src/_mock';
-import { useBoolean } from 'src/hooks/use-boolean';
-import Player, { PlayerDialog } from 'src/components/player';
 
 // ----------------------------------------------------------------------
   const SERVICES = [
